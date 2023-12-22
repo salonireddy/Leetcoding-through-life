@@ -7,7 +7,7 @@ class Solution {
                 rightScore++;
             }
         }
-        for(int i=0;i<s.length()-1;i++){
+        for(int i=0;i<s.length()-1;i++){ //makes sure right has at least 1 string
             if(s.charAt(i)=='0'){
                 leftScore++;
             }
