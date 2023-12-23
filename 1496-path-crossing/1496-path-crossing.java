@@ -18,7 +18,6 @@ class Solution {
                 pathx--;
             }
             String point = pathx + "," + pathy;
-            System.out.println(point);
             if(set.contains(point)){
                 return true;
             }
