@@ -17,13 +17,10 @@ class Solution {
             else if(ch=='W'){
                 pathx--;
             }
-            String point = pathx + "," + pathy;
-            if(set.contains(point)){
+            if(set.contains(pathx + "," + pathy)){
                 return true;
             }
-            else{
-                set.add(point);
-            }
+            set.add(pathx + "," + pathy);
         }
        return false; 
     }
