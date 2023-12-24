@@ -14,9 +14,9 @@ class Solution {
             }
             else{
                 if(s.charAt(i)=='0'){
-                    score0++; //string starts with 1, odd pos should have 0
+                    score0++; //string starts with 0, odd pos should have 1
                 }else{
-                    score1++; //string starts with 0, odd pos should have 1
+                    score1++; //string starts with 1, odd pos should have 0
                 }
             }
         }
